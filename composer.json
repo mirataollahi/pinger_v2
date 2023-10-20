@@ -1,0 +1,16 @@
+{
+  "name": "irphp/phpsocket",
+  "description": "Php native socket",
+  "autoload": {
+    "files": [
+      "app/Helpers/functions.php"
+    ],
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "larapack/dd": "^1.1",
+    "predis/predis": "^2.2"
+  }
+}
